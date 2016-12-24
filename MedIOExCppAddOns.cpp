@@ -1,6 +1,6 @@
 /* MedIOExCppAddOns.cpp
  * In this program, you can compile and run MedIOExCppAddOns.cpp
- * Compile gcc -o MedIOExCppAddOns MedIOExCppAddOns.c pmedex.c -lbcm2835
+ * Compile gcc -o MedIOExCppAddOns MedIOExCppAddOns.cpp pmedex.c -lbcm2835
  * first c++ program on MedIOEx
  * pe2a.h provides c++
  * please set SW2 as being Buzzer ON

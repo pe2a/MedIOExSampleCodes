@@ -5,7 +5,7 @@
 #include <time.h>
 
 /*
-
+115200 8N1
 Sample code by : http://www.raspberry-projects.com/pi/programming-in-c/uart-serial-port/using-the-uart
 
 */

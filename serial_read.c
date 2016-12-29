@@ -3,6 +3,12 @@
 #include <fcntl.h>			//Used for UART
 #include <termios.h>		//Used for UART
 
+/*
+115200 8N1
+Sample code by : http://www.raspberry-projects.com/pi/programming-in-c/uart-serial-port/using-the-uart
+
+*/
+
 int main(){
 	//-------------------------
 	//----- SETUP USART 0 -----

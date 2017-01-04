@@ -9,6 +9,7 @@
 *
 * Basic thread simple via pe2a.h 
 * You can see how to create Digital Output and Analog Output functions as using thread functions
+* 2017 |  support@pe2a.com
 * Compile : gcc -o thread_time thread_time.c pmedex.c -lbcm2835 -lpthread -std=gnu11 
 * Run : ./thread
 *

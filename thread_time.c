@@ -150,12 +150,12 @@ void *fTimePicker_3(){
 				
 			case 1:
 			
-				pe2a_AO_writeVal(pe2a_GPIO_J1_1,4095);	
+				pe2a_AO_writeVal(pe2a_GPIO_J1_1,4095);	//means 10V as Analog Output Voltage reference
 				sleep(2);
 				
 			case 2:
 			
-				pe2a_AO_writeVal(pe2a_GPIO_J1_1,2048);
+				pe2a_AO_writeVal(pe2a_GPIO_J1_1,2048); //means 5V as Analog Output Voltage reference
 				sleep(2);
 				
 		}

@@ -27,7 +27,7 @@ int main(){
 
             if(arr_diGPIO[0]  || arr_diGPIO[1] || arr_diGPIO[2] || arr_diGPIO[3] ){
 
-                printf("Emergency Status is NOT OK , buzzer should be OFF \n")
+                printf("Emergency Status is NOT OK , buzzer should be ON \n")
                 pe2a_DO_setHigh(pe2a_GPIO_J4_1); //buzzer ON
                 pe2a_DO_setHigh(pe2a_GPIO_J4_2);
 
@@ -36,7 +36,7 @@ int main(){
             else
             {
 
-                printf("Emergency Status is OK , buzzer should be ON \n")
+                printf("Emergency Status is OK , buzzer should be OFF \n")
                 pe2a_DO_setLow(pe2a_GPIO_J4_1); //buzzer OFF
                 pe2a_DO_setLow(pe2a_GPIO_J4_2);
 
